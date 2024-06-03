@@ -15,6 +15,7 @@ module "vpc" {
   public_subnet_tags = {
     "map_public_ip_on_launch" = true
   }
+  #naaku telugu radhu
 
   tags = {
     Terraform   = "true"
